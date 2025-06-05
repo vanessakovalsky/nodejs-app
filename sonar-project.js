@@ -1,6 +1,6 @@
 // sonar-project.js - Configuration pour Node.js
 module.exports = {
-  serverUrl: 'http://localhost:9000',
+  serverUrl: 'http://sonarqube:9000',
   token: process.env.SONAR_TOKEN,
   options: {
     'sonar.projectKey': 'nodejs-app',
